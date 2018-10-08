@@ -2,9 +2,9 @@
 public class Player
 	{
 		 private String name;
-		 private double percentage;
+		 private int percentage;
 		 
-		 public Player ( String n, double p )
+		 public Player ( String n, int p )
 		 {
 			 name = n;
 			 percentage = p;
@@ -20,12 +20,12 @@ public class Player
 				this.name = name;
 			}
 
-		public double getPercentage()
+		public int getPercentage()
 			{
 				return percentage;
 			}
 
-		public void setPercentage(double percentage)
+		public void setPercentage(int percentage)
 			{
 				this.percentage = percentage;
 			}
