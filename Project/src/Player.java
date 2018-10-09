@@ -1,14 +1,14 @@
 
 public class Player
 	{
-		 private String name;
-		 private int percentage;
-		 
-		 public Player ( String n, int p )
-		 {
-			 name = n;
-			 percentage = p;
-		 }
+		private String name;
+		private int percentage;
+
+		public Player(String n, int p)
+			{
+				name = n;
+				percentage = p;
+			}
 
 		public String getName()
 			{
@@ -30,6 +30,4 @@ public class Player
 				this.percentage = percentage;
 			}
 
-		
-		
 	}
